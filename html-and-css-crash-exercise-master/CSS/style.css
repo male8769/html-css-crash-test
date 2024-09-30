@@ -1,13 +1,20 @@
-body, ul, li, h1, h2, a{
-  
+ 
   /* Insert a margin property and set it's value to 0 */
   /* Insert a padding property and set it's value to 0 */
   /* Insert a font-family property and set it's value to tahoma
   font-family: tahoma;
-}
-p{
   /* Insert a font-size property and set it's value to 18px */
-}
+
+  body, ul, li, h1, h2, a {
+    margin: 0%;
+    padding: 0%;
+    font-family: tahoma;
+    }
+    p{
+      font-size: 18px;
+    }
+
+
 header{
   background-color: #F63232;
   padding: 20px 0;
@@ -20,10 +27,15 @@ header{
 }
 header h1{
   /* Insert a color property and set it's value to white  */
+  color: white;
   /* Insert a border property and set it's value to 8px solid white  */
+  border: 8px solid white;
   /* Insert a display property and set it's value to inline-block  */
+  display: inline-block;
   /* Insert a padding property and set it's value to 6px and 12px  */
+  padding: 6px 12px;
   /* Insert a border-radius property and set it's value to 36px */
+  border-radius: 36px;
 }
 .banner{
   position: relative;
@@ -42,6 +54,7 @@ header h1{
 } 
 .banner .welcome span{
   /* Insert a font-size property and set it's value to 1.4em */
+  font-size: 1.4em;
 }
 nav{
   background: #F4F4F4;
@@ -68,6 +81,7 @@ nav li a{
 }
 nav li a:hover{
   /* Insert a text-decoration property and set it's value to underline */
+  text-decoration: underline;
 }
 nav li a.join{
   color: #F63232;
@@ -82,6 +96,7 @@ main{
 }
 article h2{
   /* Insert a color property and set it's value to #F63232  */
+  color: #F63232;
   /* Insert a font-size property and set it's value to 48px */
   font-size: 48px;
 }
@@ -136,16 +151,23 @@ section.join h2{
 }
 form {
   /* Insert a padding-left property with following value: 1.5rem */
+  padding-left: 1.5rem;
   /* Insert a pading-top property with following value: 6rem */
+  padding-top: 6rem;
     padding-left: 1.5rem;
     padding-top: 6rem;
 }
 form input{
   /* Insert a margin property and set it's value to 20px and 0  */
-  /* Insert a padding property and set it's value to 10px and 20px */ 
+  margin: 20px 0;
+  /* Insert a padding property and set it's value to 10px and 20px */
+  padding: 10px 20px; 
   /* Insert a font-size property and set it's value to 24px */
+  font-size: 24px;
   /* Insert a border-radius property and set it's value to 28px */ 
+  border-radius: 28px;
   /* Insert a border property and set it's value to 4px solid and white */
+  border: 4px white;
 }
 form textarea{
   margin: 20px 0;
@@ -156,7 +178,9 @@ form textarea{
 }
 form input:focus{
   /* Insert a border property with following values: 4px dashed #4B4B4B */
+  border: 4px #4B4B4B;
   /* Insert a outline property with following values: none */
+  outline: none;
 }
 form textarea:focus{
   border: 4px dashed #4B4B4B;
@@ -167,8 +191,11 @@ form input:valid{
 }
 input[type="submit"] {
   /* Insert a width property with following value: 39rem */
+  width: 39rem;
   /* Insert a background-color property with following value: red */
+  background-color: red;
   /* Insert a font-size property with following value: xx-large */
+  font-size: xx-large;
   /* Insert a color property with following value: ghostwhite */
     color: ghostwhite;
 }
